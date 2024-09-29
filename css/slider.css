@@ -1,0 +1,19 @@
+.carousel, .carousel-inner > .item > img {
+    height: 720px;
+    width: 1000px;
+  }
+
+.carousel-inner{
+  
+  width: 1500px;
+}
+
+.carousel-indicators{
+  position: inherit;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style
+}

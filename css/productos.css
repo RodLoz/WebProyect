@@ -1,0 +1,35 @@
+
+
+.card{
+    width: auto;
+    height: 100%;
+   
+
+
+}
+
+
+.card-img{
+    width: auto;
+    max-height: 60%;
+    margin-bottom: auto;
+
+
+}
+
+.card-body{
+    text-align: end;
+    
+}
+
+.card-body .btn-group a{
+    margin-right: 10px;
+    text-align: end;
+    margin-bottom: 5px;
+}
+
+
+
+.card-body .btn-group {
+    align-items: flex-end;
+}

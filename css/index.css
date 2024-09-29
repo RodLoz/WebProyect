@@ -1,0 +1,139 @@
+ /* Poner el margen y el padding en 0, en lugar del automático de HTML */
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';	
+}
+
+body{
+	background-color: #fbfbfb;
+}
+
+/* Slider */
+
+
+.productos-imgs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;	
+}
+
+.productos-imgs .productos-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	border: 1px solid rgba(150, 150, 150, 0.658);
+	border-radius: 10px;
+	margin: auto;
+	box-sizing: border-box;
+	-webkit-filter: drop-shadow(0px 0px 5px #333);
+	filter: drop-shadow(0px 0px 1px #333);
+	white-space: normal;
+	margin-top: 10px;
+	margin-bottom: -15px;
+}
+
+.productos-imgs .productos-content .prd-imagen{
+	padding: 15px 15px;	
+	border-radius: 10px;
+}
+
+.productos-imgs .productos-content .prd-imagen:hover{	
+	background-color:rgb(218, 218, 218);
+}
+
+.boton-productos{
+	display: flex;		
+	justify-content: center;	
+}
+
+.boton-productos .btn-prd-inside{
+	display: flex;	
+	padding: 5px 25px;
+	justify-content: center;		
+}
+
+.boton-productos .btn-prd-inside a{	
+	background-color: white;
+	color: red;	
+	padding: 5px 25px;
+	border: 1px solid red;
+	border-radius: 20px;
+	text-decoration: none;
+	z-index: 3;	
+}
+
+ .boton-productos .btn-prd-inside a:hover{	
+	color: white;	
+	background-color: red;	
+	text-decoration: none;
+} 
+
+/* Oferta destacada */
+.h2-destacada{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.h2-destacada img{	
+	width: 200px;
+	height: 100px;
+}
+
+.content-ofertas{
+	display: flex;	
+	justify-content: space-evenly;
+	margin-top: 35px;
+}
+
+.content-ofertas .oferta-imagen img{
+	width: 400px;
+	height: 350px;
+	border-radius: 15%;
+}
+
+@media screen and (max-width: 1210px){
+	.content-ofertas{
+		flex-direction: column;
+		text-align: center;		
+	}
+
+	.content-ofertas .oferta-imagen img{		
+		padding: 15px 0px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.productos-imgs .productos-content .prd-imagen{		
+		padding: 0px 0px;	
+		border-radius: 10px;		
+	}
+
+	.productos-imgs .productos-content{		
+		flex-direction: column;		
+	}
+
+	.content-ofertas{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.content-ofertas .oferta-imagen img{
+		width: 300px;
+		height: 350px;
+		padding: 15px 0px;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+	.content-ofertas .oferta-imagen img{
+		width: 200px;
+		height: 250px;
+		padding: 15px 0px;
+	}
+}
+

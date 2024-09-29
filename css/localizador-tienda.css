@@ -1,0 +1,38 @@
+ /* Poner el margen y el padding en 0, en lugar del automático de HTML */
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';	
+}
+
+.container-mapa{
+    display: block;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.container-mapa .checkbox-Tienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.container-mapa .mapa{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+@media  screen and (max-width: 930px) {
+    .container-mapa{
+        flex-direction: column;
+    }
+
+    .container-mapa .mapa iframe{
+        display: flex;
+        justify-content: center;
+        width: 476px;
+    }
+}

@@ -1,0 +1,42 @@
+@media (min-width: 1200px) {
+    .custom-text {
+      text-align: left;
+    }
+
+    .margen ul {
+      margin: 0 10px 0 10px;
+    
+    }
+
+  }
+
+@media (max-width: 800px) {
+    .custom-text {
+      text-align: center;
+    }
+
+
+}
+
+.texto {
+  text-decoration: none;
+}
+
+.redes{
+  align-items:center;  
+}
+
+.margen ul li{
+  margin: 0;
+
+}
+
+
+
+.pago{
+  margin: 0 5px 0 5px;
+}
+
+.footer-coryright {
+  margin: 0;
+}
